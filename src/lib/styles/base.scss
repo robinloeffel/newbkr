@@ -1,0 +1,29 @@
+@forward "font";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: min(100% - 2rem, 64ch);
+  margin: auto;
+  font-family: "Inter Variable", system-ui;
+  line-height: 1.6;
+  color: #eee;
+  background-color: #223;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+body > div {
+  display: contents;
+}

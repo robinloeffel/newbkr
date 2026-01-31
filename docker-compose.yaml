@@ -1,0 +1,6 @@
+services:
+  gateway:
+    container_name: ibkr-gateway
+    build: gateway
+    ports:
+      - "8080:5000"
